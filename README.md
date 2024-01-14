@@ -1,2 +1,2 @@
 # Digital-Monopoly
-Converts Monopolyu Standard to Monopoly Secret vault
+Converts Monopoly Standard to Monopoly Secret vault
