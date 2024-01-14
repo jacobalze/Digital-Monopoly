@@ -1,2 +1,2 @@
 # Digital-Monopoly
-Converts Monopoly Standard to Monopoly Secret vault
+Coverts Monoply Standard Edition or Monoply Secret Vault edition to a electronic banking game.
