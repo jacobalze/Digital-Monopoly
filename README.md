@@ -1,6 +1,9 @@
 # Digital-Monopoly
 Coverts Monoply Standard Edition or Monoply Secret Vault edition to a electronic banking game.
 
+Full instructions:
+[https://www.instructables.com/Digital-Monopoly-Money-Tracker-Using-a-Barcode-Sca/](url)
+
 # Notes
 The "Buy Property from player" does not work, will be fixed in the next update.
 
