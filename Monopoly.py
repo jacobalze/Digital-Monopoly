@@ -1,11 +1,10 @@
 import time
-
+import turtle
 gametype = "" #Selecting the game type from user input (Standard or Secret Vault)
 #Barcode Ids:
 #Box barcodes:
 standardid = "6468475374851" 
 vaultid = "7965749577486"
-
 #Player Barcodes and names:(DO NOT CHANGE)
 playerOne = ""
 playerTwo = ""
@@ -180,9 +179,9 @@ propertiesAvalible = []
 payamount = 0
 currentproperty = ""
 currentplayer = ""
-
-
 utilityamount = 0
+pen = turtle.Turtle()
+pen.penup()
 
 gameOver = False
 
@@ -216,7 +215,7 @@ while(gameselected == False):
         atlanticid = "014101"
         ventnorid = "183507"
         marvinid = "384537"
-        pacificid = "831737"
+        pacificid = "274831"
         northcarolinaid = "735501"
         pennsylvaniaid = "831737"
         parkplaceid = "741387"
@@ -281,7 +280,7 @@ while(gameselected == False):
         paytoguess = 100
         paygetoutofjail = 100
 
-        propertiesAvaliable += ["Mediterranean", "Baltic", "Oriental", "Vermont", "Connecticut", "St. Charles", "States", "Virginia", "St. James", "Tennessee", "New York", "Kentucky", "Indiana", "Illinois", "Atlantic", "Ventnor", "Marvin Gardens", "Pacific", "Ventnor", "Marvin Gardens", "Pacific", "North Carolina", "Pennsylvania", "Park Place", "Boardwalk"]
+        propertiesAvalible += ["Mediterranean", "Baltic", "Oriental", "Vermont", "Connecticut", "St. Charles", "States", "Virginia", "St. James", "Tennessee", "New York", "Kentucky", "Indiana", "Illinois", "Atlantic", "Ventnor", "Marvin Gardens", "Pacific", "Ventnor", "Marvin Gardens", "Pacific", "North Carolina", "Pennsylvania", "Park Place", "Boardwalk"]
         gameselected = True
         
     else:
@@ -345,6 +344,41 @@ while (allplayersjoined == False):
 print("Ok, Let's Play!")
  #---------------------MAIN LOOP---------------------------------
 while (gameOver == False):
+    turtle.Screen().clear()
+    pen.goto(-450,450)
+    pen.pendown()
+    pen.write(f"{playerOnen} - ${playerOneb}       {playerTwon} - ${playerTwob}       {playerThreen} - ${playerThreeb}", font=("Open Sans", 20, "normal"))
+    pen.goto(-450,400)
+    pen.write(f"{playerFourn} - ${playerFourb}       {playerFiven} - ${playerFiveb}       {playerSixn} - ${playerSixb}", font=("Open Sans", 20, "normal"))
+    pen.penup()
+    pen.goto(-450,300)
+    pen.pendown()
+    pen.write(f"{playerOnen} - {playerOnep}", font=("Open Sans", 10, "normal"))
+    pen.penup()
+    pen.goto(-450,200)
+    pen.pendown()
+    pen.write(f"{playerTwon} - {playerTwop}", font=("Open Sans", 10, "normal"))
+    pen.penup()
+    pen.goto(-450,100)
+    pen.pendown()
+    pen.write(f"{playerThreen} - {playerThreep}", font=("Open Sans", 10, "normal"))
+    pen.penup()
+    pen.goto(-450,0)
+    pen.pendown()
+    pen.write(f"{playerFourn} - {playerFourp}", font=("Open Sans", 10, "normal"))
+    pen.penup()
+    pen.goto(-450,-100)
+    pen.pendown()
+    pen.write(f"{playerFiven} - {playerFivep}", font=("Open Sans", 10, "normal"))
+    pen.penup()
+    pen.goto(-450,-200)
+    pen.pendown()
+    pen.write(f"{playerSixn} - {playerSixp}", font=("Open Sans", 10, "normal"))
+    pen.penup()
+    if(gametype == "vault"):
+        pen.goto(-450,-350)
+        pen.pendown()
+        pen.write(f"Vault Balance - ${vaultb}", font=("Open Sans", 20, "normal"))
     binput = input("Please scan action on banker's card")
     if(binput == buy): #Begins the buying procees
         buyinput = input("Scan Property to buy")
@@ -439,7 +473,7 @@ while (gameOver == False):
         if(bplayerinput == playerOne):
             if(playerOneb >= payamount):
                 playerOneb -= payamount
-                playerOnep += currentproperty
+                playerOnep.append(currentproperty)
                 print(f"{playerOnen} has purchased {currentproperty} for ${payamount}!")
                 propertiesAvalible.remove(currentproperty)
             else:
@@ -447,7 +481,7 @@ while (gameOver == False):
         elif(bplayerinput == playerTwo):
             if(playerTwob >= payamount):
                 playerTwob -= payamount
-                playerTwop += currentproperty
+                playerTwop.append(currentproperty)
                 print(f"{playerTwon} has purchased {currentproperty} for ${payamount}!")
                 propertiesAvalible.remove(currentproperty)
             else:
@@ -455,7 +489,7 @@ while (gameOver == False):
         elif(bplayerinput == playerThree):
             if(playerThreeb >= payamount):
                 playerThreeb -= payamount
-                playerThreep += currentproperty
+                playerThreep.append(currentproperty)
                 print(f"{playerThreen} has purchased {currentproperty} for ${payamount}!")
                 propertiesAvalible.remove(currentproperty)
             else:
@@ -463,7 +497,7 @@ while (gameOver == False):
         elif(bplayerinput == playerFour):
             if(playerFourb >= payamount):
                 playerFourb -= payamount
-                playerFourp += currentproperty
+                playerFourp.append(currentproperty)
                 print(f"{playerFourn} has purchased {currentproperty} for ${payamount}!")
                 propertiesAvalible.remove(currentproperty)
             else:
@@ -471,7 +505,7 @@ while (gameOver == False):
         elif(bplayerinput == playerFive):
             if(playerFiveb >= payamount):
                 playerFiveb -= payamount
-                playerFivep += currentproperty
+                playerFivep.append(currentproperty)
                 print(f"{playerFiven} has purchased {currentproperty} for ${payamount}!")
                 propertiesAvalible.remove(currentproperty)
             else:
@@ -479,7 +513,7 @@ while (gameOver == False):
         elif(bplayerinput == playerSix):
             if(playerSixb >= payamount):
                 playerSixb -= payamount
-                playerSixp += currentproperty
+                playerSixp.append(currentproperty)
                 print(f"{playerSixn} has purchased {currentproperty} for ${payamount}!")
                 propertiesAvalible.remove(currentproperty)
             else:
@@ -794,22 +828,22 @@ while (gameOver == False):
         auctionpay = input(f"The auction is now over. {currentplayer} owes ${payamount}. {currentplayer}, please scan your player card to complete the purchace of {currentproperty}")
         if(auctionpay == playerOne):
             playerOneb -= payamount
-            playerOnep += currentproperty
+            playerOnep.append(currentproperty)
         elif(auctionpay == playerTwo):
             playerTwob -= payamount
-            playerTwop += currentproperty
+            playerTwop.append(currentproperty)
         elif(auctionpay == playerThree):
             playerThreeb -= payamount
-            playerThreep += currentproperty
+            playerThreep.append(currentproperty)
         elif(auctionpay == playerFour):
             playerFourb -= payamount
-            playerFourp += currentproperty
+            playerFourp.append(currentproperty)
         elif(auctionpay == playerFive):
             playerFiveb -= payamount
-            playerFivep += currentproperty
+            playerFivep.append(currentproperty)
         elif(auctionpay == playerSix):
             playerSixb -= payamount
-            playerSixp += currentproperty
+            playerSixp.append(currentproperty)
         print(f"{currentplayer} has purchaced {currentproperty} for ${payamount}!")
         propertiesAvalible.remove(currentproperty)
         currentproperty = ""
@@ -1260,7 +1294,7 @@ while (gameOver == False):
                     playerSixb += payamount
                     currentplayer = playerSixn  
                 playerOneb -= payamount
-                playerOnep += currentproperty
+                playerOnep.append(currentproperty)
                 print(f"{playerOnen} has purchaced {currentproperty} from {currentplayer} for ${payamount}!")
             else:
                 print("You don't have enough money.")
@@ -1291,7 +1325,7 @@ while (gameOver == False):
                     playerSixp.remove(currentproperty)
                     currentplayer = playerSixn  
                 playerTwob -= payamount
-                playerTwop += currentproperty
+                playerTwop.append(currentproperty)
                 print(f"{playerTwon} has purchaced {currentproperty} from {currentplayer} for ${payamount}!")
             else:
                 print("You don't have enough money.")
@@ -1322,7 +1356,7 @@ while (gameOver == False):
                     playerSixp.remove(currentproperty)
                     currentplayer = playerSixn  
                 playerThreeb -= payamount
-                playerThreep += currentproperty
+                playerThreep.append(currentproperty)
                 print(f"{playerThreen} has purchaced {currentproperty} from {currentplayer} for ${payamount}!")
             else:
                 print("You don't have enough money.")
@@ -1353,7 +1387,7 @@ while (gameOver == False):
                     playerSixp.remove(currentproperty)
                     currentplayer = playerSixn  
                 playerFourb -= payamount
-                playerFourp += currentproperty
+                playerFourp.append(currentproperty)
                 print(f"{playerFourn} has purchaced {currentproperty} from {currentplayer} for ${payamount}!")
             else:
                 print("You don't have enough money.")
@@ -1384,7 +1418,7 @@ while (gameOver == False):
                     playerSixp.remove(currentproperty)
                     currentplayer = playerSixn  
                 playerFiveb -= payamount
-                playerFivep += currentproperty
+                playerFivep.append(currentproperty)
                 print(f"{playerFiven} has purchaced {currentproperty} from {currentplayer} for ${payamount}!")
             else:
                 print("You don't have enough money.")
@@ -1415,7 +1449,7 @@ while (gameOver == False):
                     playerSixp.remove(currentproperty)
                     currentplayer = playerSixn  
                 playerSixb -= payamount
-                playerSixp += currentproperty
+                playerSixp.append(currentproperty)
                 print(f"{playerSixn} has purchaced {currentproperty} from {currentplayer} for ${payamount}!")
             else:
                 print("You don't have enough money.")
