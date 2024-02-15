@@ -22,7 +22,7 @@ Display is designed for split screen, with text on left and display on right. Fe
 
 Future Updates (dates are when they are expected to release):
 
-	Version 1.2 – February 11, 2024
+	Version 1.2 – ?
  
 	•	Add Smart Rent
  
