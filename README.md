@@ -1,9 +1,6 @@
 # Digital-Monopoly
 Coverts Monoply Standard Edition or Monoply Secret Vault edition to a electronic banking game.
 
-Full instructions:
-[https://www.instructables.com/Digital-Monopoly-Money-Tracker-Using-a-Barcode-Sca/](url)
-
 # Notes
 Display is designed for split screen, with text on left and display on right. Feel free to edit the coordinates on lines 348-379 to fit your screen.
 
