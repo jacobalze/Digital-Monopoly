@@ -1,8 +1,11 @@
 # Digital-Monopoly
+
+**1.2 Relasing June 7th, 2025!**
+
 Coverts Monoply Standard Edition or Monoply Secret Vault edition to a electronic banking game.
 
 # Notes
-Display is designed for split screen, with text on left and display on right. Feel free to edit the coordinates on lines 348-379 to fit your screen.
+Best way to use this is to have your main computer with the terminal for managing the game, then have your computer connected to a TV or a larger display to display the game stats.
 
 # Version History
 	Version 1.0  -  January 16, 2024
@@ -19,11 +22,9 @@ Display is designed for split screen, with text on left and display on right. Fe
 
 Future Updates (dates are when they are expected to release):
 
-	Version 1.2 – ?
+	Version 1.2 – June 7th, 2025
  
-	•	Add Smart Rent
- 
-	•	Fix extra bugs
+	•	...?
 
 
 
