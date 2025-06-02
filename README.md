@@ -1,6 +1,6 @@
 # Digital-Monopoly
 
-**1.2 Relasing June 7th, 2025!**
+**1.2 Relasing June 8th, 2025!**
 
 Coverts Monoply Standard Edition or Monoply Secret Vault edition to a electronic banking game.
 
@@ -22,7 +22,7 @@ Best way to use this is to have your main computer with the terminal for managin
 
 Future Updates (dates are when they are expected to release):
 
-	Version 1.2 – June 7th, 2025
+	Version 1.2 – June 8th, 2025
  
 	•	...?
 
