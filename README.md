@@ -1,6 +1,6 @@
 # Digital-Monopoly
 
-**1.2 Relasing June 8th, 2025!**
+**1.2 Releasing June 14th, 2025!**
 
 Coverts Monoply Standard Edition or Monoply Secret Vault edition to a electronic banking game.
 
