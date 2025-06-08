@@ -22,7 +22,7 @@ Best way to use this is to have your main computer with the terminal for managin
 
 Future Updates (dates are when they are expected to release):
 
-	Version 1.2 – June 8th, 2025
+	Version 1.2 – June 14th, 2025
  
 	•	...?
 
