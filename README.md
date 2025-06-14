@@ -7,10 +7,11 @@ Coverts Monoply Standard Edition or Monoply Secret Vault edition to a electronic
 # Notes
 Best way to use this is to have your main computer with the terminal for managing the game, then have your computer connected to a TV or a larger display to display the game stats.
 
+Best Resolution for display: 1440 x 900
+
 # Instructions:
 1. Download All Files
-2. Unpack them from the Zip and ensure they are all in the same location (remove the images from the folder, don't change the name of the images as well)
-3. Connect your contactless reader and start that program.
+2. Unpack them from the Zip and ensure they are all in the same location (don't change the name of the images)
 4. Start the Monopoly Program.
 
 # Version History
