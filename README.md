@@ -1,11 +1,17 @@
 # Digital-Monopoly
 
-**1.2 Releasing June 14th, 2025!**
+**Update 1.2 Is Here!**
 
 Coverts Monoply Standard Edition or Monoply Secret Vault edition to a electronic banking game.
 
 # Notes
 Best way to use this is to have your main computer with the terminal for managing the game, then have your computer connected to a TV or a larger display to display the game stats.
+
+# Instructions:
+1. Download All Files
+2. Unpack them from the Zip and ensure they are all in the same location (remove the images from the folder, don't change the name of the images as well)
+3. Connect your contactless reader and start that program.
+4. Start the Monopoly Program.
 
 # Version History
 	Version 1.0  -  January 16, 2024
@@ -20,15 +26,21 @@ Best way to use this is to have your main computer with the terminal for managin
 
   	•	Add a display that shows all players balances and properties
 
-Future Updates (dates are when they are expected to release):
-
+#
 	Version 1.2 – June 14th, 2025
  
-	•	...?
+	•	Added support for Monopoly Builder Edition
+	•	Added support for new contactless reader
+	•	Added Smart Rent – A feature to automatically calculate rent
+	•	Improved graphics with visuals on properties owned.
+	•	Added handlers to prevent game crashing upon error
+	•	Added recovery mode to recover from a crashed game
+	•	Fixed bug with auction, along with various other small bugs
 
 
-
-
+# 
+Future Updates (dates are when they are expected to release):
+No future updates at the moment
 
  
 Thanks for Viewing!
