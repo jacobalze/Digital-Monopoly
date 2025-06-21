@@ -2,7 +2,7 @@
 
 **Update 1.2 Is Here!**
 
-Coverts Monoply Standard Edition or Monoply Secret Vault edition to a electronic banking game.
+Coverts Monoply Standard Edition, Monoply Secret Vault edition, or MOnopoly Builder Edition to a electronic banking game.
 
 # Notes
 Best way to use this is to have your main computer with the terminal for managing the game, then have your computer connected to a TV or a larger display to display the game stats.
