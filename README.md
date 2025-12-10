@@ -2,15 +2,20 @@
 
 **Update 1.2 Is Here!**
 
-Coverts Monoply Standard Edition, Monoply Secret Vault edition, or Monopoly Builder Edition to a electronic banking game.
+Electronic banking system to manage money, properties, rent, and more!
 
+Current Supported Versions:
+
+	 - Standard
+	 - Secret Vault
+	 - Builder
 # Notes
 Best way to use this is to have your main computer with the terminal for managing the game, then have your computer connected to a TV or a larger display to display the game stats.
 
 Best Resolution for display: 1440 x 900
 
 # Instructions:
-1. Download All Files
+1. Download All Files (code and image files)
 2. Unpack them from the Zip and ensure they are all in the same location (don't change the name of the images)
 4. Start the Monopoly Program.
 
@@ -22,9 +27,7 @@ Best Resolution for display: 1440 x 900
 	Version 1.1 – January 21, 2024
 
   	•	Fix bug with adding properties to list
-
   	•	Fix bug with buying properties from another player (connected to the one above)
-
   	•	Add a display that shows all players balances and properties
 
 #
@@ -41,7 +44,14 @@ Best Resolution for display: 1440 x 900
 
 # 
 Future Updates (dates are when they are expected to release):
-No future updates at the moment
+
+	Version 1.3 or 2.0 – Early-Mid 2026
+ 
+	•	Code cleanups and bug fixes
+	•	Graphics Improvment
+	•	General gameplay fixes and improvement
+	•	And much more...
+
 
  
 Thanks for Viewing!
